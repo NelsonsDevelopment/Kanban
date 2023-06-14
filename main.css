@@ -1,6 +1,6 @@
 .kanban {
     display: flex;
-    padding: 30px;
+    padding: 20px;
     width: 750px;
     border-radius: 10px;
 }
@@ -23,7 +23,7 @@
 }
 
 .kanban_column-title {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 30px;
     color: white;
     user-select: none;
@@ -70,3 +70,8 @@
     color: white;
 }
 
+hr {
+    height: 2px;
+    border-width: 0;
+    background-color: rgb(48, 48, 48);
+}
