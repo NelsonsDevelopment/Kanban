@@ -46,8 +46,9 @@
 }
 
 .kanban_dropzone-active {
-    height: 20px;
+    height: 40px;
     background: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .kanban_add-item {
