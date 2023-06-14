@@ -36,7 +36,7 @@ export default class Column {
             <div class="kanban_column">
                 <div class="kanban_column-title"></div>
                 <hr>
-                <div class="kanban_column-items"></div>
+                <div class="kanban_column-items" title="Double Click to Delete🗑️"></div>
                 <button class="kanban_add-item" type="button">+ Add</button>
             </div>
         `).children[0];
