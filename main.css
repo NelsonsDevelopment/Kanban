@@ -2,7 +2,6 @@
     display: flex;
     padding: 30px;
     width: 750px;
-    background: #4f4f4f;
     border-radius: 10px;
 }
 
@@ -13,6 +12,10 @@
 
 .kanban_column {
     flex: 1;
+    background-color: #4b4b4b;
+    padding: 20px 20px;
+    border-radius: 10px;
+    height: max-content;
 }
 
 .kanban_column:not(:last-child) {
